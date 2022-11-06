@@ -1,0 +1,22 @@
+{
+    "name": "nick44/package-nick-which-browser-service",
+    "description": "short",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nick44"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nick44\\UserAgent\\": "./src"
+        }
+    },
+    "require": {
+        "nick44/package-nick-user-agent-interface": "dev-master",
+        "laravel/framework": "^9.19",
+        "whichbrowser/parser": "^2.1"
+    }
+}
